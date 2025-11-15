@@ -31,6 +31,8 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 - analyze_log.py # 학습 시각화 (Return / Epsilon / Action)
 - states_30d.csv # 전처리된 고객 상태 데이터
 - README.md # 프로젝트 설명
+- visualizer.png # episode_return, epsilon_decay, action_counts 결과 시각화 이미
+- dqn_best.pt # 학습된 모델 파라미터 (DQN의 best Q-network 가중치)
 
 ---
 
