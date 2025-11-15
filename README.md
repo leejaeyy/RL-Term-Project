@@ -22,7 +22,7 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 ## 📁 Directory Structure
 
 📦 eCommerce_DQN
-- analyze_log.py        # 학습 시각화 (Return / Epsilon / Action)
+- analyze_log.py # 학습 시각화 (Return / Epsilon / Action)
 - dqn_agent.py          # Q-Network 및 DQN 에이전트
 - dqn_best.pt           # 학습된 모델 파라미터 (DQN의 best Q-network 가중치)
 - env.py                # 강화학습 환경 (MDP)
