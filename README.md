@@ -84,6 +84,5 @@ Return, Epsilon Decay, Action Count 그래프가 출력됩니다.
 ##
 👨‍💻 Author
 이재영 (Jae-Young Lee)
-- Sogang University Student, AI · Data Science
+- 📍 Sogang University Student, AI · Data Science
 - 📧 wodud4916@naver.com
-- 📍 Sogang University
