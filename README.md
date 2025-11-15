@@ -37,7 +37,7 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 
 ## ⚙️ Setup & Run
 
-1️⃣ “필요한 라이브러리를 설치하세요:
+1️⃣ 필요한 라이브러리를 설치하세요.
 
 2️⃣ Run preprocessing
 전처리 과정(preprocessing)을 실행하면, states_30d.csv 파일은 전처리 스크립트를 통해 생성됩니다.
