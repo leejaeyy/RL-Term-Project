@@ -22,18 +22,17 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 ## 📁 Directory Structure
 
 📦 eCommerce_DQN
-- analyze_log.py # 학습 시각화 (Return / Epsilon / Action)
-- dqn_agent.py          # Q-Network 및 DQN 에이전트
-- dqn_best.pt           # 학습된 모델 파라미터 (DQN의 best Q-network 가중치)
-- env.py                # 강화학습 환경 (MDP)
-- preprocessing.py      # 강화학습용 입력 데이터를 생성하는 전처리 스크립트
-- README.md             # 프로젝트 설명
-- replay_buffer.py      # 경험 재현 버퍼 (Experience Replay)
-- states_30d.csv        # 전처리된 고객 상태 데이터
-- train_dqn.py          # 학습 루프 및 로깅
-- train_log.csv         # 학습 로그 (자동 생성)
-- visualizer.png        # episode_return, epsilon_decay, action_counts 결과 시각화 이미지
-
+- analyze_log.py  <sub>학습 시각화 (Return / Epsilon / Action)</sub>
+- dqn_agent.py <sub>Q-Network 및 DQN 에이전트</sub>
+- dqn_best.pt <sub>학습된 모델 파라미터 (DQN의 best Q-network 가중치)</sub>
+- env.py  <sub>강화학습 환경 (MDP)</sub>
+- preprocessing.py  <sub>강화학습용 입력 데이터를 생성하는 전처리 스크립트</sub>
+- README.md  <sub>프로젝트 설명</sub>
+- replay_buffer.py  <sub>경험 재현 버퍼 (Experience Replay)</sub>
+- states_30d.csv  <sub>전처리된 고객 상태 데이터</sub>
+- train_dqn.py  <sub>학습 루프 및 로깅</sub>
+- train_log.csv  <sub>학습 로그 (자동 생성)</sub>
+- visualizer.png  <sub>episode_return, epsilon_decay, action_counts 결과 시각화 이미지</sub>
 ---
 
 ## ⚙️ Setup & Run
