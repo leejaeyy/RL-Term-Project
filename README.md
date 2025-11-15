@@ -67,10 +67,10 @@ Return, Epsilon Decay, Action Count 그래프가 출력됩니다.
 - Action Distribution
 
 🧩 Key Highlights
-- ✅ 현실적인 eCommerce 시뮬레이션을 위한 맞춤형 MDP 환경 구현
-- ✅ 프로모션 비용을 반영한 동적 보상 스케일링 적용
-- ✅ 경험 리플레이 버퍼 + 소프트 타깃 업데이트(τ = 0.005)
-- ✅ 자동 로깅 & 시각화 파이프라인 통합
+- 현실적인 eCommerce 시뮬레이션을 위한 맞춤형 MDP 환경 구현
+- 프로모션 비용을 반영한 동적 보상 스케일링 적용
+- 경험 리플레이 버퍼 + 소프트 타깃 업데이트(τ = 0.005)
+- 자동 로깅 & 시각화 파이프라인 통합
 
 🧠 Future Improvements
 1) Double / Dueling DQN 구조 추가로 Q-value 안정화
