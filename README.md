@@ -22,12 +22,13 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 ## 📁 Directory Structure
 
 📦 eCommerce_DQN
+- preprocessing.py #강화학습용 입력 데이터를 생성하는 전처리 스크립트
 - env.py # 강화학습 환경 (MDP)
 - replay_buffer.py # 경험 재현 버퍼 (Experience Replay)
 - dqn_agent.py # Q-Network 및 DQN 에이전트
 - train_dqn.py # 학습 루프 및 로깅
 - train_log.csv # 학습 로그 (자동 생성)
-- log_visualizer.py # 학습 시각화 (Return / Epsilon / Action)
+- analyze_log.py # 학습 시각화 (Return / Epsilon / Action)
 - states_30d.csv # 전처리된 고객 상태 데이터
 - README.md # 프로젝트 설명
 
