@@ -41,9 +41,7 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 pip install torch pandas numpy matplotlib
 
 2️⃣ Run preprocessing
-states_30d.csv는 전처리 스크립트(build_states_final.py)로 생성됩니다.
-
-(또는 제공된 샘플 데이터를 바로 사용 가능)
+전처리 과정(preprocessing)을 실행하면, states_30d.csv 파일은 전처리 스크립트를 통해 생성됩니다.
 
 3️⃣ Train the DQN Agent
 - python train_dqn.py
