@@ -6,7 +6,7 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 | 항목 | 내용 |
 |------|------|
@@ -19,7 +19,7 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 📦 eCommerce_DQN
 - analyze_log.py  <sub>학습 시각화 (Return / Epsilon / Action)</sub>
@@ -37,19 +37,19 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 
 ## ⚙️ Setup & Run
 
-1️⃣ 필요한 라이브러리를 설치하세요.
+1️) 필요한 라이브러리를 설치하세요.
 
-2️⃣ Run preprocessing
+2️) Run preprocessing
 전처리 과정(preprocessing)을 실행하면, states_30d.csv 파일은 전처리 스크립트를 통해 생성됩니다.
 
-3️⃣ Train the DQN Agent
+3️) Train the DQN Agent
 - python train_dqn.py
 >학습이 진행되면 다음 파일이 자동 생성됩니다:
 - train_log.csv — 에피소드별 학습 로그
 - checkpoints/dqn_best.pt
 >최고 성능 Q-network 파라미터:
 
-4️⃣ Visualize training results
+4️) Visualize training results
 python log_visualizer.py
 Return, Epsilon Decay, Action Count 그래프가 출력됩니다.
 
@@ -65,13 +65,13 @@ Return, Epsilon Decay, Action Count 그래프가 출력됩니다.
 - Epsilon Decay
 - Action Distribution
 
-🧩 Key Highlights
+# Key Highlights
 - 현실적인 eCommerce 시뮬레이션을 위한 맞춤형 MDP 환경 구현
 - 프로모션 비용을 반영한 동적 보상 스케일링 적용
 - 경험 리플레이 버퍼 + 소프트 타깃 업데이트(τ = 0.005)
 - 자동 로깅 & 시각화 파이프라인 통합
 
-🧠 Future Improvements
+# Future Improvements
 1) Double / Dueling DQN 구조 추가로 Q-value 안정화
 
 2) Reward Engineering: 고객 재방문률, 이탈률 반영
@@ -79,7 +79,7 @@ Return, Epsilon Decay, Action Count 그래프가 출력됩니다.
 3) Feature Expansion: 상품 카테고리, 시간대, 이벤트 정보 추가
 
 ##
-👨‍💻 Author
+Author
 이재영 (Jae-Young Lee)
 - 📍 Sogang University Student, AI · Data Science
 - 📧 wodud4916@gmail.com
