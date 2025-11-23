@@ -1,4 +1,4 @@
-# 🧠 eCommerce DQN Reinforcement Learning
+# 📖 eCommerce DQN Reinforcement Learning
 
 본 프로젝트는 **전자상거래(e-Commerce)** 구매 이력 데이터를 기반으로,  
 할인 정책(Action)에 따른 고객 구매 반응을 학습하는 **DQN (Deep Q-Network)** 강화학습 모델 구현을 목표로 합니다.  
@@ -37,7 +37,7 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 
 ## ⚙️ Setup & Run
 
-1️) 필요한 라이브러리를 설치하세요.
+1) 필요한 라이브러리를 설치하세요.
 
 2️) Run preprocessing
 전처리 과정(preprocessing)을 실행하면, states_30d.csv 파일은 전처리 스크립트를 통해 생성됩니다.
