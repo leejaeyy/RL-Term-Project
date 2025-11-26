@@ -39,17 +39,17 @@ Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까�
 
 1) 필요한 라이브러리를 설치하세요.
 
-2️) Run preprocessing
+2) Run preprocessing
 전처리 과정(preprocessing)을 실행하면, states_30d.csv 파일은 전처리 스크립트를 통해 생성됩니다.
 
-3️) Train the DQN Agent
+3) Train the DQN Agent
 - python train_dqn.py
 >학습이 진행되면 다음 파일이 자동 생성됩니다:
 - train_log.csv — 에피소드별 학습 로그
 - checkpoints/dqn_best.pt
 >최고 성능 Q-network 파라미터:
 
-4️) Visualize training results
+4) Visualize training results
 python log_visualizer.py
 Return, Epsilon Decay, Action Count 그래프가 출력됩니다.
 
