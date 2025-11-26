@@ -1,8 +1,20 @@
 # 📖 eCommerce DQN Reinforcement Learning
 
-본 프로젝트는 **전자상거래(e-Commerce)** 구매 이력 데이터를 기반으로,  
+RL 프로젝트는 **전자상거래(e-Commerce)** 구매 이력 데이터를 기반으로,  
 할인 정책(Action)에 따른 고객 구매 반응을 학습하는 **DQN (Deep Q-Network)** 강화학습 모델 구현을 목표로 합니다.  
 Python + PyTorch 기반으로 환경 설계부터 학습, 평가, 시각화까지 전 과정을 포함합니다.
+
+📌 Raw Data: KZ.csv
+
+◾ 데이터 개요
+KZ.csv는 전자상거래 플랫폼에서 수집된 실제 구매 로그 데이터를 기반으로 구성되며,
+각 행(row)은 개별 고객의 단일 구매 이벤트를 의미합니다.
+
+◾ 데이터 출처 (Data Source)
+KZ.csv 데이터는 Kaggle의 공개 e-Commerce 데이터에서 가져왔습니다.
+
+🔗 Kaggle Dataset 링크:
+https://www.kaggle.com/datasets/knightbearr/ecommerce-transactions-dataset
 
 ---
 
