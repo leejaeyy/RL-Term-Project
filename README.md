@@ -65,13 +65,13 @@ https://www.kaggle.com/datasets/knightbearr/ecommerce-transactions-dataset
 python log_visualizer.py
 Return, Epsilon Decay, Action Count 그래프가 출력됩니다.
 
-📊 Results
+✅ Results
 항목	설명
 - Episode Return	학습이 진행될수록 안정적으로 수렴하며 보상이 증가함
 - Epsilon Decay	탐험(Exploration) → 활용(Exploitation) 전환 정상 작동
 - Action Distribution	무행동 대비 10~20% 쿠폰 사용 비율 점진적 증가
 
-📈 예시 결과:
+✅ 예시 결과:
 
 - Episode Return
 - Epsilon Decay
