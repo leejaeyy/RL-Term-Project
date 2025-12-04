@@ -1,4 +1,3 @@
-# %%
 import sys
 import os
 import numpy as np
@@ -138,17 +137,11 @@ def evaluate(env, agent, episodes=5):
 # ───────────────────────────────────────────
 if __name__ == "__main__":
     train(
-        episodes=200,          # 처음엔 200~400으로 가볍게
+        episodes=5000,          # 처음엔 200~400으로 가볍게
         warmup_steps=2_000,    # 리플레이 버퍼 워밍업
-        batch_size=128,
+        batch_size=256,
         epsilon_start=1.0,
-        epsilon_end=0.05,
+        epsilon_end=0.1,
         epsilon_decay_steps=30_000,
         eval_every=50
     )
-
-
-# %%
-
-
-
