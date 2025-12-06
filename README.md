@@ -44,6 +44,7 @@ https://www.kaggle.com/datasets/knightbearr/ecommerce-transactions-dataset
 - states_30d.csv  <sub>전처리된 고객 상태 데이터</sub>
 - train_dqn.py  <sub>학습 루프 및 로깅</sub>
 - train_log.csv  <sub>학습 로그 (자동 생성)</sub>
+- train_dqn_seed.ipynb <sub> seed 변경 실험
 - visualizer.png  <sub>episode_return, epsilon_decay, action_counts 결과 시각화 이미지</sub>
 
 ## 📁 Dataset 다운로드
