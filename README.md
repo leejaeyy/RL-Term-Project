@@ -27,7 +27,7 @@ https://www.kaggle.com/datasets/knightbearr/ecommerce-transactions-dataset
 | **State (S)** | `recency_norm`, `frequency_norm`, `avg_price_norm`, `diversity_norm` |
 | **Action (A)** | {0: 무행동, 1: 5% 할인, 2: 10% 할인, 3: 20% 할인} |
 | **Reward (R)** | 구매 성공 시 +, 미구매 시 – 보상 (할인율 페널티 포함) |
-| **Transition (T, γ)** | 사용자별 구매 시퀀스 기반 전이, γ=0.95 |
+| **Transition (T, γ)** | 사용자별 구매 시퀀스 기반 전이, γ=0.90 |
 
 ---
 
