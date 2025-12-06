@@ -45,6 +45,14 @@ https://www.kaggle.com/datasets/knightbearr/ecommerce-transactions-dataset
 - train_dqn.py  <sub>학습 루프 및 로깅</sub>
 - train_log.csv  <sub>학습 로그 (자동 생성)</sub>
 - visualizer.png  <sub>episode_return, epsilon_decay, action_counts 결과 시각화 이미지</sub>
+
+## 📁 Dataset 다운로드
+대용량 데이터 파일은 Release에 업로드되어 있습니다.
+
+- [states_30d.csv 다운로드](https://github.com/leejaeyy/RL-Term-Project/releases/download/v1.0/states_30d.csv)
+- [kz.csv 다운로드](https://github.com/leejaeyy/RL-Term-Project/releases/download/v1.0/kz.csv)
+
+
 ---
 
 ## ⚙️ Setup & Run
